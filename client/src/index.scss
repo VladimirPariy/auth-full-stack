@@ -1,1 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');@tailwind base;@tailwind components;@tailwind utilities;body {  @apply text-white;  background: #10141f;}#root {  @apply flex overflow-x-hidden;  font-family: 'Poppins', sans-serif;}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#root{
+	@apply h-screen;
+	
+}

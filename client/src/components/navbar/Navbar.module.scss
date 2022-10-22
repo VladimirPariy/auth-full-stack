@@ -1,0 +1,9 @@
+.navbarWrapper{
+	@apply h-10 bg-slate-500 flex justify-between items-center px-10 text-slate-200;
+	
+	.auth{
+		> button{
+			@apply px-2 mx-5 border-purple-800 rounded-lg bg-purple-500 shadow-lg shadow-gray-600 active:shadow-sm active:shadow-gray-500; 
+		}
+	}
+}
